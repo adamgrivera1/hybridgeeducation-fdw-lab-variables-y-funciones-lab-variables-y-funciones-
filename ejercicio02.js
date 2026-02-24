@@ -2,6 +2,10 @@
 // Declara una función llamada "obtenerPI" que retorne el valor 3.1416
 
 //define tu función aquí
+function obtenerPI() {
+    const pi = 3.1416;
+    return pi;
+}
 
 
 // No modificar
@@ -10,3 +14,5 @@
 module.exports = {
     obtenerPI
 };
+
+console.log(obtenerPI());
